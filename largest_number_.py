@@ -33,7 +33,6 @@ def main():
         
         st.write("The largest number is:", largest_num)
 
-if __name__ == "__main__":
-    main()
 
-streamlit run largest_number.py
+
+streamlit run largest number.py
