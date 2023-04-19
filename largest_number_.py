@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1keqT8o2sBG-yY2OYQ7AF8GZTlvSZyRGc
 """
 
-
+!pip install -q streamlit
 
 
 
@@ -33,6 +33,7 @@ def main():
         
         st.write("The largest number is:", largest_num)
 
-
+if __name__ == "__main__":
+    main()
 
 streamlit run largest_number.py
