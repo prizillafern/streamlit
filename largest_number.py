@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1keqT8o2sBG-yY2OYQ7AF8GZTlvSZyRGc
 """
 
-!pip install -q streamlit
+
 import streamlit as st
 st.write("Largest of three numbers")
 
